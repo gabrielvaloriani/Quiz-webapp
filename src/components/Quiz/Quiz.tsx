@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './Quiz.css';
 import { data } from '../../Assets/data';
+import {Helmet} from 'react-helmet'
 
 const Quiz = () => {
   let [index, setIndex] = useState(0);
@@ -69,6 +70,7 @@ const Quiz = () => {
 
   return (
     <div className="container max-w-4xl mx-auto mt-24 bg-white text-gray-800 flex flex-col gap-8 rounded-lg p-6">
+      <Helmet>Circular Economy Quiz</Helmet>
       <h2>Let's see if you are prepared &#129303;</h2>
       <hr />
       {result?<></>:
