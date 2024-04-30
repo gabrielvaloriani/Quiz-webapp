@@ -1,50 +1,80 @@
-# Getting Started with Create React App
+# Quiz-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Image](./src/components/image/preview-1.PNG)
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+![Project Image](./src/components/image/preview-2.PNG)
 
-### `npm start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Project Image](./src/components/image/preview-3.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</br>
 
-### `npm test`
+> Welcome on my web quiz-app, this quiz is about circular-economy and recycling where you can test your skills with an instant feedback and get a final result!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Description](#description)
+- [How It Works](#how-it-works)
+- [Author Info](#author-info)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description
 
-### `npm run eject`
+This quiz-app was created using React and implementation of TypeScript to raise awareness of recycling and circular economy.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- HTML
+- CSS
+- React
+- Typescript
+- Tailwind
+- Visual Studio Code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Back To The Top](#Quiz-app)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## How To Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The quiz consists of 10 questions, each having 4 answer options, out of which only 1 is correct. </br>
+</br>As soon as the user selects an answer, it will be highlighted. If the answer chosen by the user is correct, it will be highlighted in green. However, if the user selects a wrong answer, it will be highlighted in red, and the correct answer will be highlighted too.</br>
+</br>At the end of the quiz, the user's total score will be calculated based on the number of correct and incorrect answers. Finally, the user will receive a score-based judgment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### API Reference
 
-# Quiz-webapp
+- Little example of one of the consts that I used.
 
-ed35fb9898671171c6fd567bd50565dfd3780566
+</br>
+
+```javascript
+const skill = (): string => {
+    if (score <= 4 ) {
+      return "Come on man you are better than this! 🤨"
+    } else if (score > 4 && score < 6) {
+      return "Almost there buddy but you have to know a little bit more 🤔 "
+    }else if (score > 6 && score <= 8) {
+      return "You're good but not great yet 😜 "
+    }else {
+      return "You're good but not great yet 😝 "
+    }
+```
+
+[Back To The Top](#Quiz-app)
+
+---
+
+## Author Info
+
+I wll see you on my social media!
+
+- Twitter - [@GabrielValorianiFranco](https://twitter.com/GabrielValoria)
+- Linkedin - [GabrielValoriani](https://www.linkedin.com/in/gabriel-valoriani-franco-9971a3291/)
+
+[Back To The Top](#Quiz-app)
