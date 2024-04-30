@@ -3,7 +3,7 @@ import './Home.css';
 import {Helmet} from 'react-helmet'
 import EconomyImage from '../image/economy.png'
 
-export default function Home() {
+function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
       <Helmet>
@@ -29,3 +29,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

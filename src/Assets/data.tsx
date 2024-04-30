@@ -1,4 +1,13 @@
-export const data = [
+interface Question {
+  question: string;
+  option1: string;
+  option2: string;
+  option3: string;
+  option4: string;
+  ans: number
+}
+
+export const data:Question[] = [
     {
       question: "What material can be recycled infinitely without losing quality?",
       option1: "Paper",
