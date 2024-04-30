@@ -64,7 +64,7 @@ const Quiz = () => {
     }else if (score > 6 && score <= 8) {
       return "You're good but not great yet 😜 "
     }else {
-      return "You're good but not great yet 😝 "
+      return "You're the man! 😝 "
     }
   }
 

@@ -43,13 +43,18 @@ This quiz-app was created using React and implementation of TypeScript to raise 
 
 ## How To Use
 
-The quiz consists of 10 questions, each having 4 answer options, out of which only 1 is correct. </br>
+Here are the steps to test the project locally:
+
+- Open the Visual Studio Code terminal, navigate to the project folder by typing "cd quiz-webapp" in the terminal
+- Start the project locally by typing "npm start".
+
+</br>The quiz consists of 10 questions, each having 4 answer options, out of which only 1 is correct. </br>
 </br>As soon as the user selects an answer, it will be highlighted. If the answer chosen by the user is correct, it will be highlighted in green. However, if the user selects a wrong answer, it will be highlighted in red, and the correct answer will be highlighted too.</br>
 </br>At the end of the quiz, the user's total score will be calculated based on the number of correct and incorrect answers. Finally, the user will receive a score-based judgment.
 
 #### API Reference
 
-- Little example of one of the consts that I used.
+- Little example of one of the consts that I used for give the final score-base judgment.
 
 </br>
 
@@ -62,7 +67,7 @@ const skill = (): string => {
     }else if (score > 6 && score <= 8) {
       return "You're good but not great yet 😜 "
     }else {
-      return "You're good but not great yet 😝 "
+      return "You're the man! 😝 "
     }
 ```
 
