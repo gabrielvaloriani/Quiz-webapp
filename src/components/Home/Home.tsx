@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import {Helmet} from 'react-helmet'
 import EconomyImage from '../image/economy.png'
+import {Link} from 'react-router-dom'
 
 function Home() {
   return (
@@ -21,9 +22,9 @@ function Home() {
           <p className='mb-4 text-xl'> - Instant feedback</p>
           <p className='mb-4 text-xl'>- Final result </p>
         </div>
-        <a href="/quiz" className="mt-2 mb-6 lg:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl lg:text-2xl py-3 lg:py-4 px-6 lg:px-8 rounded inline-block">
+        <Link to="/quiz" className="mt-2 mb-6 lg:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl lg:text-2xl py-3 lg:py-4 px-6 lg:px-8 rounded inline-block">
           Start Quiz
-        </a>
+        </Link>
         <img className='image' src={EconomyImage} alt='Circular Economy Img'/>
       </div>
     </div>
