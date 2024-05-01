@@ -7,8 +7,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<HomeComponent />}/>
-        <Route path='/quiz' element={<QuizComponent/>} />
+        <Route path='/' element={<Home />}/>
+        <Route path='/Quiz' element={<Quiz/>} />
 
       </Routes>
 
@@ -16,7 +16,7 @@ const App = () => {
   )
 }
 
-const HomeComponent = () => <Home />;
-const QuizComponent = () => <Quiz />;
+// const HomeComponent = () => <Home />;
+// const QuizComponent = () => <Quiz />;
 
 export default App
