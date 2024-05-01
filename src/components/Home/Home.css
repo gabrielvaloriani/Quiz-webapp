@@ -1,7 +1,6 @@
 .image {
   width: 600px;
-  margin-top: 40px;
-  margin-left: 30%;
+  margin: auto;
 }
 
 @media (max-width: 600px) {
