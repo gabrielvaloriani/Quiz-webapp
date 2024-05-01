@@ -12,7 +12,5 @@ const App = () => {
   )
 }
 
-// const HomeComponent = () => <Home />;
-// const QuizComponent = () => <Quiz />;
 
 export default App
