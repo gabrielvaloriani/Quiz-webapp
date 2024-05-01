@@ -1,16 +1,16 @@
 import React from 'react'
-import { Route, BrowserRouter as Router, Routes, Link } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Quiz from './components/Quiz/Quiz'
 import Home from "./components/Home/Home"
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Quiz' element={<Quiz/>}></Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
 
