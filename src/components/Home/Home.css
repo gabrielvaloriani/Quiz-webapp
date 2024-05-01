@@ -6,11 +6,12 @@
 @media (max-width: 600px) {
   .content-container  {
     width: 350px;
-    height: 850px;
+    height: 825px;
+    margin: auto;
+    margin-top: 30px;
   }
   .image {
     width: max-content;
-    margin-top: 20px;
     margin-left: auto;
   }
 }
