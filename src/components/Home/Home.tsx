@@ -21,7 +21,7 @@ function Home() {
           <p className='mb-4 text-xl'> - Instant feedback</p>
           <p className='mb-4 text-xl'>- Final result </p>
         </div>
-        <a href="/quiz" className="mt-2 lg:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl lg:text-2xl py-3 lg:py-4 px-6 lg:px-8 rounded inline-block">
+        <a href="/quiz" className="mt-2 mb-6 lg:mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl lg:text-2xl py-3 lg:py-4 px-6 lg:px-8 rounded inline-block">
           Start Quiz
         </a>
         <img className='image' src={EconomyImage} alt='Circular Economy Img'/>
