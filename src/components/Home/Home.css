@@ -5,7 +5,8 @@
 
 @media (max-width: 600px) {
   .content-container  {
-    margin: 0 20px;
+    width: 350px;
+    height: 850px;
   }
   .image {
     width: max-content;
