@@ -1,18 +1,18 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Quiz from './components/Quiz/Quiz'
 import Home from "./components/Home/Home"
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Quiz' element={<Quiz/>}></Route>
 
       </Routes>
 
-    </Router>
+    </BrowserRouter>
   )
 }
 
