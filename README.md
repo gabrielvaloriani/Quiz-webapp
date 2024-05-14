@@ -45,7 +45,8 @@ This quiz-app was created using React and implementation of TypeScript to raise 
 
 Here are the steps to test the project locally:
 
-- Open the Visual Studio Code terminal, navigate to the project folder by typing "cd quiz-webapp" in the terminal
+- Open the Visual Studio Code terminal, navigate to the project folder by typing "cd quiz-webapp" in the terminal.
+- After that typing "npm install" on the terminal to Install the project dependencies found in the package.json file.
 - Start the project locally by typing "npm start".
 
 </br>The quiz consists of 10 questions, each having 4 answer options, out of which only 1 is correct. </br>
